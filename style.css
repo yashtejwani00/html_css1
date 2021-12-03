@@ -1,0 +1,304 @@
+@font-face {
+    font-family: "gatholic";
+    src: url("css/century-gothic/GOTHIC.TTF");
+    src: url("css/century-gothic/GOTHICB.TTF");
+}
+#override .container-fluid{
+    margin: 0;
+    padding: 0;
+    background-color: #0F1320;
+    color: white !important;
+    font-family: "gatholic";
+    max-width: 1920px;
+}
+#override *{box-sizing: border-box ;}
+#override .box-color-green{ background-color: #22A75D;}
+#override .box-color-blue{ background-color: #2278D4;}
+#override .box-color-yello{ background-color: #FFD100;}
+#override .box-color-red{ background-color: #E20613;}
+
+#override .t-color-green{ color: #22A75D;}
+#override .t-color-blue{ color: #2278D4;}
+#override .t-color-yello{ color: #FFD100;}
+#override .t-color-red{ color: #E20613;}
+
+/* box1 start */
+#override .nav-link{color: white;}
+#override .nav-item .btn-outline-success{padding: 8px 25px !important; margin-left: 20px;}
+#override .box1-button{ border-radius: 25px; margin-top: 40px; padding: 15px 30px;}
+#override .blockchain-part-left{ margin: auto 0 auto auto;}
+#override .navbar-toggler-icon{
+    background-color: white;
+}
+#override .blockchain-part-left h1{
+    margin: 0;
+    /* padding: 30px !important; */
+    font-size: 48px;
+    font-weight: bold;
+}
+#override .box1 .row{margin-top: 20px;}
+#override .box1{
+    background-image: url("images/Frame\ 45.png");
+    background-size: cover;
+}
+#override .box1-attoken{
+    background-image: linear-gradient(to right, #00B4EC, #2B3087);
+    margin-bottom: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#override .blockchain-part-right img{width: 100%;}
+
+/* box1 end */
+
+/* box2 start */
+#override .box2{margin: 100px 0;}
+#override .box2 p, h2, span{margin: 20px 0;}
+#override .for-holders{margin: 90px 20px -90px !important;}
+#override .for-creators a {color: #22A75D;}
+#override .for-creators span{color: #22A75D; border-bottom: 2px solid #22A75D;}
+#override .for-creators, .for-holders{
+    background-color: #171B29;
+    border-radius: 15px;
+    padding: 70px !important;
+    margin: 20px;
+}
+
+#override .box2-circle1{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #22A75D;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#override .box2-circle1 img{width: 24px;}
+#override .box2-circle2{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #2278D4;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+} 
+#override .box2-circle2 img{width: 24px;}
+/* box2 end */
+
+
+
+
+/* box3 start */
+#override .box3{margin-top: 150px;}
+#override .box3 col{margin: 0; padding: 0;}
+#override .box3 h1{font-size: 48px; font-weight: bold;}
+#override .box3-left img{
+    width: 100%;
+    height: 100%;
+}
+#override .box3-right{
+    border-radius: 48% 0 0;
+    color: black;
+    background-color: white;
+}
+#override .box3-right-down{
+    max-width: 65%;
+    margin: auto;
+}
+/* box3 end */
+
+/* box4 start */
+
+#override .box4{
+    background-color: white; 
+}
+#override .box4 .row{
+    margin: 0;
+    padding: 200px 180px;
+}
+#override .box4-in{background-color: #0F1320; border-radius: 0 250px 0 0;}
+
+
+#override .box4-head{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#override .box4-head-1{
+    width: 82px;
+    height: 82px;
+    border-radius: 41px 41px 41px 15px;
+
+}
+#overide .box4-head-1 p{color: black !important;}
+#override .box4-head-2{
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+}
+#override .box4-head p{margin: 0;}
+#override .women-holding-iphone{ width: 100%;}
+
+#override ol{list-style: none; counter-reset: section;}
+#override ol li::before{
+    counter-increment: section;
+    content: counters(section,".") " ";
+}
+#override .box4-col1 ol li::before{color: #22A75D;}
+#override .box4-col2 ol li::before{color:#2278D4;}
+#override .box4-col3 ol li::before{color: #FFD100;}
+#override .box4-col4 ol li::before{color: #E20613;}
+/* box4 end */
+
+
+/* box5 start */
+#override .box5{margin-top: 100px;}
+#override .btn-outline-success{
+    color: white;
+    border-radius: 25px;
+}
+#override .box5-custom-col{margin: auto 0;}
+/* box5 end */
+
+
+/* box6 start */
+#override .box6{
+    /* padding: 400px 0 400px; */
+    margin: auto;
+    padding: 200px 0;
+    background-image: url("images/backgroud_box6.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#override .box6 *{margin: 8px;}
+#override .box6-col1-head{
+    margin: auto;
+    width: 82px;
+    height: 82px;
+    border-radius: 41px 41px 41px 12px;
+}
+#override .box6-col1-head p{font-size: larger; font-weight: bold;}
+
+#override .box6-col1, .box6-col3{
+    padding: 80px 0;
+    text-align-last: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+#override .box6-col2{
+    padding: 80px 0;
+    text-align-last: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin: 70px 0 -70px;
+}
+/* box6 end */
+
+/* box7 start */
+#override .box7{
+    margin: 100px 150px;
+
+}
+#override .box7 *{margin: 8px;}
+#override .box7-circle{
+    width: 86px;
+    height: 86px;
+    background-color: #0F1320;
+    border-radius: 44px;
+    margin: auto -45px; 
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#override .box7-circle p{
+    font-size: 28px;
+    margin: 0;
+}
+#override .box7-comm{
+    background-color: #171B29;
+    border-radius: 20px;
+    padding: 30px;
+}
+#override .box7-comm div{
+    padding: 5% 10% 5%;
+}
+#override .box7-ind1{ margin: -25px 10px 25px;}
+#override .box7-ind3{ margin: -25px 10px 25px;}
+#override .box7-ind2{ margin: 25px 10px -25px;}
+
+/* box7 end */
+
+/* box8 start */
+#override .box8{ margin: 100px 300px;}
+#override .box8 a{text-decoration: underline; color: white;}
+/* box8 end */
+
+#override .box9{
+    margin: 0 10px 100px;
+}
+#override .bottom-part{
+    background-image: url("images/background-footer.png");
+    background-size: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+#override .box9-circle{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    padding: 8px;
+    border: 2px solid #FFFFFF;
+    opacity: 0.5;
+    border-radius: 40px;
+    display: flex;
+    align-content: center;
+}
+#override .box9-circle img{
+    max-width: 100%;
+}
+#override .custom{
+    display: flex;
+    justify-content: center;
+}
+#override .box9 .trademark{text-align-last: right;}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    #override .col-xl-3{
+        margin: auto;
+        max-width: 80%;
+    }
+    #override .box3-right-down{ max-width: 50%; margin: 50px auto 50px;}
+    #override .box5 .col-xl-5{ max-width: 80% ; margin: auto;}
+    #override .box5{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #override .box9 .col-xl-6{
+        width: 100%;
+        margin: 20px;
+    }
+    #override .box9 .col{ margin: 20px; }
+    #override .box9 .trademark{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align-last: center;
+    }
+    #override .box7-circle{margin: -40px auto; transform: rotate(90deg);}
+    #override .box7-ind1{ margin: 10px;}
+    #override .box7-ind2{ margin: 10px;}
+    #override .box7-ind3{ margin: 10px;}
+}
+
